@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+	font-family: 'Playfair Display', serif;
+}
+
+/* Main Wraper */
+.main-wrapper {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Blog Wraper */
+.blog-wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0;
+    align-items: center;
+}
+
+/* menu */
+#nav-bar-item  {
+    display: flex;
+}
+.nav-bar li:not(:first-child) {
+    padding-left: 100px ;
+}
+.nav-bar a {
+    text-decoration: none;
+    color: #dfdfdf;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px 10px;
+}
+.nav-bar li {
+    display: inline-block;
+}
+.nav-bar li:hover a {
+    background: #999999;
+}
+.toggle {
+    display: none !important;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Banner */
+.banner img {
+    width: 100%;
+}
+
+/* Content */
+.main-container {
+    padding-top: 70px;
+}
+.hash-tag {
+    text-transform: uppercase;
+    color: 14px;
+    color: #eeece9;
+}
+.main-title h2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: #6f6f6f;
+    padding: 40px 0;
+}
+.post-content p {
+    font-size: 14px;
+    text-align: justify;
+    color: #cacaca;
+}
+.leave-comment {
+    padding-top: 45px;
+}
+.leave-comment a {
+    text-decoration: none;
+    font-size: 14px;
+	text-transform: uppercase;
+    color: #eeece9;
+    font-weight: 500;
+}
+
+/* Blog item */
+.blog-main-items {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+.blog-items {
+    max-width: 45%;
+    padding-top: 130px;
+}
+.images-item img {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+/* Newsletter */
+.newsletter {
+    background: #f0f0f0;
+    margin-top: 130px;
+}
+.letter {
+    text-align: center;
+}
+.email-address {
+    padding-bottom: 50px;
+}
+.email-address input {
+    border: none;
+    outline: none;
+    background: #f0f0f0;
+    font-size: 14px;
+    border-bottom: 1px solid #000;
+    display: inline-block;
+    width: 280px;
+}
+.email-address img {
+    width: 16px;
+    height: 16px;
+    margin-left: -20px;
+}
+
+/* Button */
+.button {
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 70px;
+}
+.button a {
+    text-decoration: none;
+    font-size: 20px;
+	color: #707070;
+	border: 1px solid #000;
+	padding: 20px;
+}
+/* Footer */
+.main-footer {
+    background: #f0f0f0;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.link-contact a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+}
+.link-contact a:not(:first-child) {
+    padding-left: 20px;
+}
+.icons-contact a {
+    padding-left: 10px;
+}
+.icon-contact {
+    color: #000;
+}
